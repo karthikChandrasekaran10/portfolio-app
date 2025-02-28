@@ -29,7 +29,7 @@ export default function Hero(){
                 <a className='pr-5 hover:text-white' href={config.social.instagram}><FaInstagram size={30}/></a>
             </div>
         </div>
-        <img className='md:w-1/3 px-5 py-5' src = {Hero1Img}></img>
+        <img className='md:w-1/3 px-5 py-5' src = {Hero1Img} alt ="MyImage"></img>
 
     </section>
 }

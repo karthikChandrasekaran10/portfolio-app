@@ -9,7 +9,7 @@ export default function About(){
 
     return <section className='flex flex-col md:flex-row  bg-primary'id='about'>
         <div className='md:w-1/2'>
-            <img className='px-10 py-10 h-[700px] w-[600px] justify-end' src={AboutImg}></img>
+            <img className='px-10 py-10 h-[700px] w-[600px] justify-end' src={AboutImg} alt ="MyImage2"></img>
         </div>
         <div className='md:w-1/2 flex justify-end'>
             <div className='flex flex-col justify-center px-10 py-5'>
