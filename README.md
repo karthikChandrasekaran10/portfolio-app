@@ -1,3 +1,6 @@
+#This Site is Deployed on Netlify
+Link: (https://karthikchan-portfolio.netlify.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
