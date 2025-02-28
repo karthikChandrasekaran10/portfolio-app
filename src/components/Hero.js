@@ -1,12 +1,12 @@
 import Hero1Img from '../assets/hero1.jpg';
-import { FaXTwitter, FaLinkedin ,FaInstagram } from "react-icons/fa6";
-
+import { FaLinkedin ,FaInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 export default function Hero(){
     const config ={
         subtitle:' Software Devloper, Wed Designer with Post Graduate in Computer Science.',
         social: {
-            twitter: 'https://x.com/KarthikLeo326',
+            github: 'https://github.com/karthikChandrasekaran10',
             linkedin:'https://www.linkedin.com/in/karthik-chandrasekaran-1055b215b/',
             instagram:'https://www.instagram.com/karthik_.chandrasekaran/'
         }
@@ -24,7 +24,7 @@ export default function Hero(){
 
             </h1>
             <div className='flex py-10'>
-                <a className='pr-5 hover:text-white' href={config.social.twitter}><FaXTwitter size={30} /> </a>
+                <a className='pr-5 hover:text-white' href={config.social.github}><FaGithub size={30} /> </a>
                 <a className='pr-5 hover:text-white' href={config.social.linkedin}><FaLinkedin size={30}/></a>
                 <a className='pr-5 hover:text-white' href={config.social.instagram}><FaInstagram size={30}/></a>
             </div>

@@ -7,8 +7,8 @@ export default function Projects(){
         projects:[
             {
                 image:EcommerceImg1,
-                description: 'Project Description- Built a Ecommerce Website using React, Java, SpringBoot.',
-                link: 'https://github.com/karthikraja1997' 
+                description: 'Built my personal portfolio Website using React, JavaScript, Tailwind CSS, Git and  Netlify',
+                link: 'https://karthikchan-portfolio.netlify.app/' 
             },
             {
                 image:EcommerceImg2,
