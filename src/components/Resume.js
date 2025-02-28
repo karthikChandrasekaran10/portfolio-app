@@ -14,7 +14,7 @@ export default function Resume(){
                     Resume:</h1>
 
                 <p className='text-2xl text-white pb-5'>
-                Please Click Download to view my resume. </p> 
+                You can view and download my resume. </p> 
                 <a className='btn' href={config.link}>Download</a>
             </div>
         </div>

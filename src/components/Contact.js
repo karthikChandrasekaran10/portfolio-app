@@ -10,7 +10,7 @@ export default function Contact(){
             <h1 className='text-4xl   border-b-4 border-primary mb-5  font-bold '>
                     Contact Information</h1>
             <p className='text-2xl pb-5'>
-                You can reach me out in :</p>
+                You can reach out to me via :</p>
                 <p className="py-2 md:text-2xl"><span className="font-bold">Email: </span>{config.email}</p>
                 <p className="py-2 md:text-2xl"><span className="font-bold">Phone: </span>{config.phone}</p>
 

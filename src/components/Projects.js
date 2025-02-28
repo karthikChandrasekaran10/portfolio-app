@@ -8,17 +8,17 @@ export default function Projects(){
             {
                 image:EcommerceImg1,
                 description: 'Built my personal portfolio Website using React, JavaScript, Tailwind CSS, Git and  Netlify',
-                link: 'https://karthikchan-portfolio.netlify.app/' 
+                link: 'https://github.com/karthikChandrasekaran10/portfolio-app' 
             },
             {
                 image:EcommerceImg2,
                 description: 'Project Description',
-                link:'https://github.com/karthikraja1997'
+                link:'https://github.com/karthikChandrasekaran10/'
             },
             {
                 image:EcommerceImg3,
                 description: 'Project Description',
-                link: 'https://github.com/karthikraja1997'
+                link: 'https://github.com/karthikChandrasekaran10/'
             }
         ]
     }
@@ -45,7 +45,7 @@ export default function Projects(){
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5 text-white'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' href={project.link}>View Project</a>
+                                <a className='btn' href={project.link}>View Repository</a>
                             </div>
                         </div>
                     </div>
