@@ -1,0 +1,57 @@
+import EcommerceImg1 from '../assets/ecommerce.jpg';
+import EcommerceImg2 from '../assets/ecommerce.jpg';
+import EcommerceImg3 from '../assets/ecommerce.jpg';
+
+export default function Projects(){
+    const config = {
+        projects:[
+            {
+                image:EcommerceImg1,
+                description: 'Project Description- Built a Ecommerce Website using React, Java, SpringBoot.',
+                link: 'https://github.com/karthikraja1997' 
+            },
+            {
+                image:EcommerceImg2,
+                description: 'Project Description',
+                link:'https://github.com/karthikraja1997'
+            },
+            {
+                image:EcommerceImg3,
+                description: 'Project Description',
+                link: 'https://github.com/karthikraja1997'
+            }
+        ]
+    }
+
+
+    return <section className="flex flex-col py-20 px-5 justify-center bg-secondary" id='projects'>
+        <div className="w-full">
+            <div className="flex flex-col px-10 py-5">
+                <h1 className="text-4xl text-white border-b-4 border-black mb-5 w-[140px] font-bold ">
+                    Projects
+                </h1>
+                <p className='text-white'>
+                    These are some of my projects that I had been working on using React, HTML, CSS. 
+                    Please do check them out.
+                </p>
+            </div> 
+        </div>
+        <div className="w-full">
+            <div className='flex flex-col md:flex-row px-10 gap-10'>
+                {config.projects.map((project)=>(
+                <a href={project.link}>
+                    <div className='relative' >
+                    <img className='h-[200px]  w-[500px] ' src = {project.image}></img>
+                        <div className='project-desc'>
+                            <p className='text-center px-5 py-5 text-white'>{project.description}</p>
+                            <div className='flex justify-center'>
+                                <a className='btn' href={project.link}>View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                ))}
+            </div>
+        </div>
+    </section>
+}
