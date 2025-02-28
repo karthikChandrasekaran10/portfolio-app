@@ -2,9 +2,9 @@ import AboutImg from '../assets/hero2.jpg';
 
 export default function About(){
     const config ={
-        line1:" I'm an Indian living in Chicago, who came for my Master's in Computer Science to the US.",
-        line2:" I am Experienced Software Engineer with over 2 years of expertise in developing dynamic web and mobile applications.",
-        line3:" Skilled in front-end technologies including React, Angular, and Vue.js, as well as backend development using Java, Node.js, and Spring Boot.Proficient in TypeScript, Docker, Redis, and cloud platformslike AWS. Strong focus on performance optimization, cross-browser compatibility, and user-centric design"
+        line1:" I'm an International student living in Chicago, who came for my Master's in Computer Science to the US.",
+        line2:" Experienced Software Engineer with over 2 years of expertise in developing dynamic full stack web applications.",
+        line3:" Skilled in front-end technologies including React.js, HTML, CSS, Bootstrap as well as backend development using Java, Hibernate, Node.js,Spring Boot and Database. Proficient in TypeScript, Docker, Redis, and cloud platformslike AWS. Strong focus on performance optimization, cross-browser compatibility, and user-centric design"
     }
 
     return <section className='flex flex-col md:flex-row  bg-primary'id='about'>
