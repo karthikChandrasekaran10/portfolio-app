@@ -41,7 +41,7 @@ export default function Projects(){
                 {config.projects.map((project)=>(
                 <a href={project.link}>
                     <div className='relative' >
-                    <img className='h-[200px]  w-[500px]hover:border-2 border-white rounded' src = {project.image} alt="projectImage"></img>
+                    <img className='h-[200px]  w-[500px] hover:border-2 border-white rounded' src = {project.image} alt="projectImage"></img>
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5 text-white'>{project.description}</p>
                             <div className='flex justify-center'>
