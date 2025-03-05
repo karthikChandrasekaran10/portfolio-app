@@ -1,4 +1,4 @@
-import EcommerceImg1 from '../assets/ecommerce.jpg';
+import PortfolioImg from '../assets/portfolioscreenshot.png';
 import EcommerceImg2 from '../assets/ecommerce.jpg';
 import EcommerceImg3 from '../assets/ecommerce.jpg';
 
@@ -6,7 +6,7 @@ export default function Projects(){
     const config = {
         projects:[
             {
-                image:EcommerceImg1,
+                image:PortfolioImg,
                 description: 'Built my personal portfolio Website using React, JavaScript, Tailwind CSS, Git and  Netlify',
                 link: 'https://github.com/karthikChandrasekaran10/portfolio-app' 
             },
