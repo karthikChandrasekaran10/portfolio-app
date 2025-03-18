@@ -1,6 +1,6 @@
 import PortfolioImg from '../assets/portfolioscreenshot.png';
-import EcommerceImg2 from '../assets/ecommerce.jpg';
-import EcommerceImg3 from '../assets/ecommerce.jpg';
+import EmsImg from '../assets/Ems.png';
+import AsllearnerImg from '../assets/Asllearner.png';
 
 export default function Projects(){
     const config = {
@@ -11,14 +11,14 @@ export default function Projects(){
                 link: 'https://github.com/karthikChandrasekaran10/portfolio-app' 
             },
             {
-                image:EcommerceImg2,
-                description: 'Project Description',
+                image:EmsImg,
+                description: 'Simple Employee Management system, a full stack applcation built using React,JavaScript bootstrap, css, Java, Spring Boot, Hibernate and MySQL. ',
                 link:'https://github.com/karthikChandrasekaran10/'
             },
             {
-                image:EcommerceImg3,
-                description: 'Project Description',
-                link: 'https://github.com/karthikChandrasekaran10/'
+                image:AsllearnerImg,
+                description: 'ASLearner - User Interfaces designed using Axure RP10 by following the design principles and other basic user design concepts like sketches.',
+                link: 'https://jpqvsz.axshare.com/?id=hodjf0&p=1__sign_in&view=c&g=1'
             }
         ]
     }
