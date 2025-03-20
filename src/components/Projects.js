@@ -31,9 +31,8 @@ export default function Projects(){
                     Projects
                 </h1>
                 <p className='text-white'>
-                    These are some of my projects that I had been working on using React, HTML, CSS. 
-                    Please do check them out.
-                </p>
+                    These are some of my sample works. The Better is yet to come:
+                </p> 
             </div> 
         </div>
         <div className="w-full">
