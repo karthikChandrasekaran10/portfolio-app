@@ -31,7 +31,8 @@ export default function Projects(){
                     Projects
                 </h1>
                 <p className='text-white'>
-                    These are some of my sample works. The Better is yet to come:
+                    These are some of my sample works. My Projects showcases variety of tools and technologies. From Wire framing to Full-stack application.
+                    The Better is yet to come:
                 </p> 
             </div> 
         </div>
@@ -44,7 +45,7 @@ export default function Projects(){
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5 text-white'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' href={project.link}>View Repository</a>
+                                <a className='btn' href={project.link}>View Git</a>
                             </div>
                         </div>
                     </div>

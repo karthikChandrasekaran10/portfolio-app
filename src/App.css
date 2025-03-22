@@ -6,13 +6,13 @@ header ul li{
   @apply px-2;
 }
 .bg-primary1{
-  background-color: rgba(34, 24, 54, 0.859)
+  background-color: rgb(8, 7, 7)
 }
 .bg-primary{
-  background-color: rgb(57, 57, 167);
+  background-color: rgb(74, 74, 171);
 }
 .bg-secondary{
-  background-color: rgb(85, 70, 184);
+  background-color: rgb(73, 62, 145);
 }
 
 .mobile-nav{

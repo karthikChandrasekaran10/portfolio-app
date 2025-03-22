@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Hero(){
     const config ={
-        subtitle:' Software Devloper, Web Designer with Masters in Computer Science.',
+        subtitle:' Software Developer, Web Designer with Masters in Computer Science.',
         social: {
             github: 'https://github.com/karthikChandrasekaran10',
             linkedin:'https://www.linkedin.com/in/karthik-chandrasekaran-1055b215b/',
