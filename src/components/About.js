@@ -10,7 +10,7 @@
                     Whether I’m crafting elegant code or competing on the court, I’m fueled by passion, collaboration, and a constant desire to grow.`
         }
 
-        return <section className='flex flex-col md:flex-row  bg-primary'id='about'>
+        return <section className='flex flex-col md:flex-row  bg-primary px-5 py-16'id='about'>
             <div className='md:w-1/2'>
                 {/* <img className='px-10 py-10 h-[400px] w-[400px] justify-end' src={AboutImg} alt ="MyImage1"></img> */}
                 <img className='px-10 py-10 h-[600px] w-[700px] ' src={badmintonImg} alt ="MyImage2"></img>
